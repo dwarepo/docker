@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: dwa-website
+spec:
+  selector:
+    matchLabels:
+      app: dwa-website
+  template:
+    metadata:
+      labels:
+        app: dwa-website
+    spec:
+      containers:
+        - image: static-container-app
+          name: dwa-website
+          resources:
+            requests:
+              cpu: 100m
+              memory: 128Mi
+            limits:
+              cpu: 250m
+              memory: 256Mi
+          ports:
+            - containerPort: 80
+              name: http
