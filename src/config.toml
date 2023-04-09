@@ -11,7 +11,7 @@ DefaultContentLanguage           = "en"                    # Default language fo
     fadeIn                       = true                    # Turn on/off the fade-in effect
     fadeInIndex                  = false                   # Turn on/off the fade-in effect on the index page even if fade-in was otherwise turned off
     dateFormat                   = "Jan 2, 2006"
-    email                        = "contact@contoso.com"   # E-mail address for contact section
+    email                        = "dwa@corp.trumpf.com"   # E-mail address for contact section
     # customCSS                    = ["foo.css"]             # Include custom css files placed under assets/
 
     # Configure the home page
@@ -85,7 +85,7 @@ DefaultContentLanguage           = "en"                    # Default language fo
         languageCode     = "en-us"
         contentDir       = "content/en"
         weight           = 0
-        title            = "Contoso Video Editing"
+        title            = "Digital Workplace + Applications"
         [languages.en.params]
-            description  = "Contoso video editing is an awesome company"   # Max 160 characters show in search results
+            description  = "DWA is an awesome group"   # Max 160 characters show in search results
             # footerText   = ""                      # Text to override default footer text (markdown allowed)
